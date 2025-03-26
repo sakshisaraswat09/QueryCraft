@@ -1,7 +1,7 @@
 # **QueryCraft**  
 
 ### **Overview**  
-**QueryCraft** is a web-based application that allows users to input SQL queries and view corresponding results. This project is built for the **Atlan Frontend Internship Task 2025**, focusing on user experience, performance, and smooth UI interactions.  
+**QueryCraft** is a web-based application that allows users to input SQL queries and view corresponding results. 
 
 ⚡ **Note:** This is a dummy SQL query runner. The displayed results are pre-defined and not actually executed against a database.  
 
