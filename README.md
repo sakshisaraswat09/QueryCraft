@@ -22,13 +22,4 @@
 - **Frontend:** React.js  
 - **Styling:** CSS/Styled Components  
 - **Deployment:** Vercel  
-- **Other Libraries:** (Mention any external libraries used, such as CodeMirror for the editor, Material UI, etc.)  
 
----
-
-## **🖥️ Getting Started**  
-
-### **1️⃣ Clone the Repository**  
-```sh
-git clone https://github.com/your-username/QueryCraft.git
-cd QueryCraft
