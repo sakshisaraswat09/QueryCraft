@@ -1,0 +1,39 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 40;
+}
+
+.popup-container {
+  position: relative;
+  padding: 24px;
+  width: 75%;
+  height: 400px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.close-button {
+  position: absolute;
+  top: -16px;
+  right: -8px;
+  color: white;
+  font-weight: bold;
+  background-color: #4f46e5;
+  padding: 8px 16px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.close-button:hover {
+  background-color: #4338ca;
+}

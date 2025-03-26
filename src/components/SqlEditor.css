@@ -1,0 +1,5 @@
+.sql-editor-container {
+  padding: 8px;
+  width: 100%;
+  background-color: #e5e7eb; /* Equivalent to Tailwind's bg-gray-200 */
+}

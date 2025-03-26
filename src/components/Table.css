@@ -1,0 +1,98 @@
+.table-container {
+  color: var(--text-secondary);
+  padding: 16px;
+  width: 100%;
+  max-height: calc(100vh - 400px);
+  overflow: auto;
+  background-color: var(--bg-primary);
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  position: sticky;
+  top: 0;
+  background-color: var(--bg-primary);
+  z-index: 2;
+  padding: 4px 0;
+}
+
+.output-label {
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 16px;
+  background-color: var(--button-primary);
+  color: white;
+  border-radius: 4px;
+}
+
+.csv-link {
+  text-decoration: none;
+}
+
+.export-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--button-primary);
+  border: none;
+  height: 36px;
+  padding: 8px 16px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.export-btn:hover {
+  background-color: var(--button-hover);
+}
+
+.export-icon {
+  fill: currentColor;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.export-text {
+  padding-left: 4px;
+}
+
+.no-output {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  font-weight: bold;
+  font-family: monospace;
+  color: var(--text-secondary);
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Custom scrollbar styles */
+.table-container::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+  border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}

@@ -1,0 +1,43 @@
+.button-container {
+  display: flex;
+}
+
+.button-wrapper {
+  padding: 10px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  height: 44px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4338ca;
+}
+
+.reset-button svg,
+.run-button svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  fill: white;
+}
+
+.icon-wrapper {
+  padding-right: 8px;
+}
+
+.button-text {
+  font-weight: bold;
+  font-family: monospace;
+}
