@@ -35,9 +35,7 @@ function Table({ query, headers, rows, csvData }) {
           <TableUI headers={headers} rows={rows} />
         </section>
       ) : (
-        <div className="no-output">
-          Run Something & Your Output Shall Appear!
-        </div>
+        <div className="no-output">Run a query to see the output!</div>
       )}
     </div>
   );
