@@ -38,9 +38,7 @@ The page load time was measured using **GTmetrix** on **March 27, 2025**. Below 
 
 To achieve high performance and low load time, the following optimizations were applied:
 
-- **Lazy Loading & Code Splitting:** Implemented React’s lazy loading and dynamic imports to load only necessary components when required.  
 - **Minimized Render Blocking Resources:** Used optimized CSS and JavaScript bundles to prevent unnecessary blocking of the rendering process.  
-- **Optimized Images & Assets:** Used modern image formats like WebP and optimized static assets.  
 - **Efficient State Management:** Used React Query to fetch and cache data efficiently, reducing redundant network requests.  
 - **CDN & Caching Strategies:** Leveraged Vercel’s CDN for faster global delivery and caching mechanisms to store frequently accessed data.  
 
